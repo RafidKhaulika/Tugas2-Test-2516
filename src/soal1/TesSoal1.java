@@ -3,16 +3,16 @@ package soal1;
 /**
  * Kelas untuk menguji hierarki perangkat pada Soal 1.
  */
-public class TesSoal1{
+public class TesSoal1 {
 
     /**
      * Membuat tiga perangkat lalu mencetak keterangan, pajak, dan harga promonya.
      *
-     * @param args untuk argumen baris perintah
+     * @param args argumen baris perintah (tidak digunakan)
      */
-    public static void main(String[] args){
-        Laptop l = new Laptop("ThinkPad", 8000000, 24, 16, 14.0);
-        Ponsel p = new Ponsel("Samsung", 5000000, 12, 128, 3);
+    public static void main(String[] args) {
+        Laptop l = new Laptop("Lenovo ThinkPad", 8000000, 24, 16, 14.0);
+        Ponsel p = new Ponsel("Samsung Galaxy", 7000000, 12, 128, 3);
         LaptopGaming g = new LaptopGaming("Victus", 16000000, 12, 32, 15.6, "RTX 4060");
 
         System.out.println(l.infoSingkat());
